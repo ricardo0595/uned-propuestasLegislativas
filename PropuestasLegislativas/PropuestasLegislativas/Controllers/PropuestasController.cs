@@ -18,8 +18,18 @@ namespace PropuestasLegislativas.Controllers
             var json = JsonSerializer.Serialize(modelo);
             EscritorJson escritor = new EscritorJson();
             ModeloPropuestaLegislativa modeloPropuesta = JsonSerializer.Deserialize<ModeloPropuestaLegislativa>(json);
-            escritor.escribir(modeloPropuesta);
-            return Json(true);
+            bool estado = escritor.escribir(modeloPropuesta);
+            return Json(estado);
+        }
+
+        public ActionResult Confirmacion()
+        {
+            return View();
+        }
+
+        public ActionResult Error()
+        {
+            return View();
         }
     }
 }

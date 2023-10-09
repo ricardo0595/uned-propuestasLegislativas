@@ -1,0 +1,83 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<section class="form" style="width:50%; margin:15px auto 0 auto;"> 
+<h1 style="text-align:center">Registro de Propuesta Legislativa</h1>
+
+
+    <form action="" name="proposal" id="proposalForm">
+        <ul class="form__fields">
+            <li class="form__field-group mb-3">
+                <label for="form__label form-label">Tipo de Identificacion</label>
+                <select required class="form__select form-control" name="TipoIdentificacion" id="identificationType">
+                    <option value="" selected>Seleccione</option>
+                    <option value="R">Residente</option>
+                    <option value="N">Nacional</option>
+                </select>
+            </li>
+
+            <li class="form__field-group mb-3">
+                <label for="form__label form-label">Identificacion</label>
+                <input required type="text" class="form__textfield form-control" placeholder="Identificacion" name="Cedula" id="idNumber">
+            </li>
+            <li class="form__field-group mb-3">
+                <label for="form__label form-label">Nombre</label>
+                <input required type="text" class="form__textfield form-control" placeholder="Nombre" name="Nombre" id="name">
+            </li>
+            <li class="form__field-group mb-3">
+                <label for="form__label form-label">Apellidos</label>
+                <input required type="text" class="form__textfield form-control" placeholder="Apellidos" name="Apellidos" id="lastname">
+            </li>
+            <li class="form__field-group mb-3">
+                <label for="form__label form-label">Telefono</label>
+                <input  minlength="8" required type="text" class="form__textfield form-control" placeholder="Telefono" maxlength="8" name="Telefono" id="phone">
+            </li>
+            <li class="form__field-group mb-3">
+                <label for="form__label form-label">Correo electronico</label>
+                <input required type="email" class="form__textfield form-control" placeholder="Correo" name="Email" id="email">
+            </li>
+            <li class="row">
+                <div class="form__field-group mb-3 col-sm-4">
+                    <label for="form__label form-label">Provincia</label>
+                    <select required class="form__select form-control" name="Provincia" id="province">
+                        <option value="" selected>Seleccionar</option>
+                    </select>
+
+                </div>
+                <div class="form__field-group mb-3 col-sm-4">
+                    <label for="form__label form-label">Canton</label>
+                    <select required class="form__select form-control" name="Canton" id="canton">
+                        <option value="" selected>Seleccionar</option>
+
+                    </select>
+                </div>
+                <div class="form__field-group mb-3 col-sm-4 ">
+                    <label for="form__label form-label">Distrito</label>
+                    <select required class="form__select form-control" name="Distrito" id="district">
+                        <option value="" selected>Seleccionar</option>
+
+                    </select>
+
+                </div>
+
+            </li>
+            <li class="form__field-group mb-3">
+                <label for="form__label form-label">Propuesta</label>
+                <textarea required class="form__textarea form-control" name="Propuesta" id="proposal" rows="5" minlength="50" maxlength="200"></textarea>
+
+            </li>
+
+            <li class="form__field-group mb-3 form__field-group mb-3--buttons">
+
+                <button type="button" class="btn btn-secondary form__button form__button--clear"> Limpiar</button>
+                <button name="submit" type="submit" class="btn btn-primary form__button form__button--submit"> Enviar</button>
+
+            </li>
+
+        </ul>
+    </form>
+</section>

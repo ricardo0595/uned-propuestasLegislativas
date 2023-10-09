@@ -5,7 +5,25 @@
     const cantonField = document.getElementById('canton')
     const districtField = document.getElementById('district')
     const form = document.getElementById('proposalForm')
-    const submitForm = form.querySelector('button[name="submit"]')
+    const clearBtn = form.querySelector('.form__button--clear')
+    const identificationType = document.querySelector('select[name="TipoIdentificacion"]')
+    const identification = document.querySelector('input[name="Cedula"]')
+
+    let validator = null;
+
+    identificationType.onchange = function () {
+        identification.value = '';
+        if (identificationType.value === "N") {
+            identification.placeholder = 'X-XXXX-XXXX'
+            identification.pattern = '[1-9]-?\\d{4}-?\\d{4}'
+            entification.setAttribute('maxlength', '11');
+
+        } else {
+            identification.placeholder = ''
+            identification.removeAttribute('pattern');
+            identification.setAttribute('maxlength','15');
+        }
+    }
 
     provinceField.onchange = function () {
         resetSelect(cantonField)
@@ -17,15 +35,20 @@
         setDistrictField();
     }
 
-    submitForm.onclick = function () {
+
+    form.onsubmit = function (event) {
+        event.preventDefault();
         getFormData();
     }
 
     async function getCRGeo() {
-        const response = await fetch("/geo.json");
+        const response = await fetch("/js/geo.json");
         crGeo = await response.json();
-        console.log(crGeo);
         setProvinceField();
+    }
+
+    clearBtn.onclick = function () {
+        form.reset();
     }
 
 
@@ -51,7 +74,6 @@
     function setCantonField() {
 
         for (const [id, canton] of Object.entries(crGeo.provincias[provinceField.value].cantones)) {
-            console.log(`${id}: ${canton}`);
             const op = document.createElement('option')
             op.value = id
             op.innerHTML = canton.nombre
@@ -63,7 +85,6 @@
 
 
         for (const [id, distrito] of Object.entries(crGeo.provincias[provinceField.value].cantones[cantonField.value].distritos)) {
-            console.log(`${id}: ${distrito}`);
             const op = document.createElement('option')
             op.value = id
             op.innerHTML = distrito
@@ -72,13 +93,46 @@
     }
 
     function getFormData() {
+
+       
+
         let formData = {};
         const fields = form.querySelectorAll('input,textarea,select');
         fields.forEach(function (field) {
             formData[field.name] = field.value;
         })
+        formData.IdPropuesta = null;
         console.log(formData)
+
+        var myHeaders = new Headers();
+        myHeaders.append("Content-Type", "application/json");
+
+        var raw = JSON.stringify(formData);
+
+        var requestOptions = {
+            method: 'POST',
+            headers: myHeaders,
+            body: raw,
+            redirect: 'follow'
+        };
+
+        fetch("/Propuestas/EnviarPropuesta", requestOptions)
+            .then(response => {
+                
+                response.json().then(function (data) {
+                    if (data) {
+                        location.replace("/Propuestas/Confirmacion");
+                    } else {
+
+                    }
+                })
+            })
+            .then(result => console.log(result))
+            .catch(error => console.log('error', error));
+
     }
+
+   
 
     getCRGeo()
 
