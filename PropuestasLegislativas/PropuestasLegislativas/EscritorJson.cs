@@ -27,7 +27,7 @@ namespace PropuestasLegislativas
 
             listaPropuestas.Add(new ModeloPropuestaLegislativa()
             {
-                IdPropuesta = new Guid(),
+                IdPropuesta = Guid.NewGuid(),
                 Apellidos = modelo.Apellidos,
                 Nombre = modelo.Nombre,
                 Canton = modelo.Canton,
