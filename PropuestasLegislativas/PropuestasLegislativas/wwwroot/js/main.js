@@ -16,7 +16,7 @@
         if (identificationType.value === "N") {
             identification.placeholder = 'X-XXXX-XXXX'
             identification.pattern = '[1-9]-?\\d{4}-?\\d{4}'
-            entification.setAttribute('maxlength', '11');
+            identification.setAttribute('maxlength', '11');
 
         } else {
             identification.placeholder = ''
@@ -62,7 +62,7 @@
     function setProvinceField() {
 
         for (const [id, provincia] of Object.entries(crGeo.provincias)) {
-            console.log(`${id}: ${provincia}`);
+            
             const op = document.createElement('option')
             op.value = id
             op.innerHTML = provincia.nombre
@@ -123,12 +123,14 @@
                     if (data) {
                         location.replace("/Propuestas/Confirmacion");
                     } else {
-
+                        location.replace("/Propuestas/Error");
                     }
                 })
             })
-            .then(result => console.log(result))
-            .catch(error => console.log('error', error));
+            .catch(error => {
+                console.log('error', error)
+                location.replace("/Propuestas/Error");
+            });
 
     }
 

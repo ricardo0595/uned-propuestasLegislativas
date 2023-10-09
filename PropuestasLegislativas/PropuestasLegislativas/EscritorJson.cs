@@ -13,18 +13,26 @@ namespace PropuestasLegislativas
             try
             {
                 string currentPath = System.IO.Directory.GetCurrentDirectory();
-
-                var jsonData = File.ReadAllText(currentPath + "\\propuestas.json");
-                List<ModeloPropuestaLegislativa> listaPropuestas = null;
+                string jsonData = null;
+                List<ModeloPropuestaLegislativa> listaPropuestas;
                 try
                 {
-                    listaPropuestas = JsonSerializer.Deserialize<List<ModeloPropuestaLegislativa>>(jsonData);
-
+                    jsonData = File.ReadAllText(currentPath + "\\propuestas.json");
                 }
                 catch (Exception)
                 {
+                   
+                }
+
+                if (jsonData!=null)
+                {
+                    listaPropuestas = JsonSerializer.Deserialize<List<ModeloPropuestaLegislativa>>(jsonData);
+                }
+                else
+                {
                     listaPropuestas = new List<ModeloPropuestaLegislativa>();
                 }
+               
 
                 listaPropuestas.Add(new ModeloPropuestaLegislativa()
                 {
