@@ -1,0 +1,61 @@
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\bin\Debug\net6.0\appsettings.json
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\bin\Debug\net6.0\PropuestasLegislativas.staticwebassets.runtime.json
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\bin\Debug\net6.0\PropuestasLegislativas.exe
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\bin\Debug\net6.0\PropuestasLegislativas.deps.json
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\bin\Debug\net6.0\PropuestasLegislativas.runtimeconfig.json
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\bin\Debug\net6.0\PropuestasLegislativas.dll
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\bin\Debug\net6.0\PropuestasLegislativas.pdb
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\PropuestasLegislativas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\PropuestasLegislativas.AssemblyInfoInputs.cache
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\PropuestasLegislativas.AssemblyInfo.cs
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\PropuestasLegislativas.csproj.CoreCompileInputs.cache
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\PropuestasLegislativas.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\PropuestasLegislativas.RazorAssemblyInfo.cache
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\PropuestasLegislativas.RazorAssemblyInfo.cs
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\staticwebassets\msbuild.PropuestasLegislativas.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\staticwebassets\msbuild.build.PropuestasLegislativas.props
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.PropuestasLegislativas.props
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.PropuestasLegislativas.props
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\scopedcss\bundle\PropuestasLegislativas.styles.css
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\scopedcss\projectbundle\PropuestasLegislativas.bundle.scp.css
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\PropuestasLegislativas.dll
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\refint\PropuestasLegislativas.dll
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\PropuestasLegislativas.pdb
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\PropuestasLegislativas.genruntimeconfig.cache
+C:\Users\rcarr\Documents\Visual Studio Projects\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\ref\PropuestasLegislativas.dll
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\bin\Debug\net6.0\appsettings.json
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\bin\Debug\net6.0\propuestas.json
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\bin\Debug\net6.0\PropuestasLegislativas.staticwebassets.runtime.json
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\bin\Debug\net6.0\PropuestasLegislativas.exe
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\bin\Debug\net6.0\PropuestasLegislativas.deps.json
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\bin\Debug\net6.0\PropuestasLegislativas.runtimeconfig.json
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\bin\Debug\net6.0\PropuestasLegislativas.dll
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\bin\Debug\net6.0\PropuestasLegislativas.pdb
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\PropuestasLegislativas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\PropuestasLegislativas.AssemblyInfoInputs.cache
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\PropuestasLegislativas.AssemblyInfo.cs
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\PropuestasLegislativas.csproj.CoreCompileInputs.cache
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\PropuestasLegislativas.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\PropuestasLegislativas.RazorAssemblyInfo.cache
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\PropuestasLegislativas.RazorAssemblyInfo.cs
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\staticwebassets\msbuild.PropuestasLegislativas.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\staticwebassets\msbuild.build.PropuestasLegislativas.props
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.PropuestasLegislativas.props
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.PropuestasLegislativas.props
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\scopedcss\bundle\PropuestasLegislativas.styles.css
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\scopedcss\projectbundle\PropuestasLegislativas.bundle.scp.css
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\PropuestasLegislativas.dll
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\refint\PropuestasLegislativas.dll
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\PropuestasLegislativas.pdb
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\PropuestasLegislativas.genruntimeconfig.cache
+C:\Users\rcarr\Documents\projects\uned-propuestas-legislativas\uned-propuestasLegislativas\PropuestasLegislativas\PropuestasLegislativas\obj\Debug\net6.0\ref\PropuestasLegislativas.dll
