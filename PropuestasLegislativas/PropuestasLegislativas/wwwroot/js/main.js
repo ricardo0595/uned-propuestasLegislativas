@@ -15,7 +15,7 @@
         identification.value = '';
         if (identificationType.value === "N") {
             identification.placeholder = 'X-XXXX-XXXX'
-            identification.pattern = '[1-9]-?\\d{4}-?\\d{4}'
+            identification.pattern = '[1-9]-\\d{4}-\\d{4}'
             identification.setAttribute('maxlength', '11');
 
         } else {
